@@ -1,0 +1,21 @@
+services:
+  proxy:
+    image: 'jc21/nginx-proxy-manager:latest'
+    hostname: proxy
+    container_name: proxy
+    pull_policy: always
+    restart: always
+    environment:
+      - INITIAL_ADMIN_EMAIL=me@example.com #change me
+      - INITIAL_ADMIN_PASSWORD=123456 #change me
+    ports:
+      - '80:80'
+      - '443:443'
+      - '81:81'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+    healthcheck:
+      test: ["CMD", "/usr/bin/check-health"]
+      interval: 10s
+      timeout: 3s
