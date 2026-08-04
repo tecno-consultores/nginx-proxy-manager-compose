@@ -17,7 +17,7 @@ services:
     environment:
       - DISABLE_IPV6=false
       - INITIAL_ADMIN_EMAIL=me@example.com # change me
-      - INITIAL_ADMIN_PASSWORD=123456 # change me
+      - INITIAL_ADMIN_PASSWORD=123456789 # change me
       - TZ="America/Caracas"
     ports:
       - "80:80"
