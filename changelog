@@ -1,4 +1,36 @@
-* commit 43f2b38ae6b4db65174e76f9b506e772d6910b0e (HEAD -> main, origin/main, origin/HEAD)
+* commit fa527d98a42dbfaf47e98778fc5d9230717efa3d (HEAD -> main, origin/main, origin/HEAD)
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Thu Aug 13 22:24:04 2026 -0400
+| 
+|     * script
+| 
+* commit f461a90e8705a77d1b66e03ec3901087abe4e74f
+| Author: Sinfallas <sinfallas@gmail.com>
+| Date:   Tue Aug 4 11:17:28 2026 -0400
+| 
+|     Create get-token.sh
+| 
+* commit 8e08084d672f4aed8329bbb282fe53f48f97ee29
+| Author: Sinfallas <sinfallas@gmail.com>
+| Date:   Tue Aug 4 11:17:00 2026 -0400
+| 
+|     Update docker-compose.yml
+| 
+* commit 99c1e6a5d5ae5bcb4f0b61ef20ad1cbb811fc6ec
+| Author: Sinfallas <sinfallas@gmail.com>
+| Date:   Mon Jul 27 14:38:23 2026 -0400
+| 
+|     Refactor docker-compose.yml for clarity and formatting
+|     
+|     Updated comments for clarity and ensured consistent formatting.
+| 
+* commit ef020025b8384743c83e2c5967dcf4402da481b4
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jul 26 13:26:08 2026 -0400
+| 
+|     * changelog
+| 
+* commit 43f2b38ae6b4db65174e76f9b506e772d6910b0e
 | Author: Jesus Palencia <sinfallas@gmail.com>
 | Date:   Sun Jul 26 13:26:01 2026 -0400
 | 
